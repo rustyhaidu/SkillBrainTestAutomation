@@ -1,8 +1,7 @@
 package org.example;
 
-import org.example.oop.Lasagna;
-
-import java.util.Scanner;
+import org.example.oop.animals.Dog;
+import org.example.oop.animals.Lasagna;
 
 public class Main {
 
@@ -24,6 +23,14 @@ public class Main {
         Lasagna obiect2 = new Lasagna();
         obiect2.name = "A doua noastra Lasagna";
         System.out.println(obiect2.name);
+
+        // Animal animal = new Animal();
+        //animal.isEating = true; // suntem in afara pachetului, nu avem access la isEating
+        Dog caine1 = new Dog();
+        //caine1.isEating = false; // suntem in afara pachetului, nu avem access la isEating
+
+        Bird bird = new Bird();
+        //bird.isEating = false; // suntem in afara pachetului, nu avem access la isEating
 
     }
 

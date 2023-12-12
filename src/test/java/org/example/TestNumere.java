@@ -1,10 +1,11 @@
 package org.example;
 
-import org.example.oop.Lasagna;
+import org.example.oop.animals.Lasagna;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
 
 public class TestNumere {
 
@@ -19,7 +20,7 @@ public class TestNumere {
     public void isNotPrime(){
         int nr = 8;
         boolean result =  Main.isPrime(nr);
-        Assertions.assertFalse(result);
+        assertFalse(result);
     }
 
     @Test

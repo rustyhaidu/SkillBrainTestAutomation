@@ -1,4 +1,4 @@
-package org.example.oop;
+package org.example.oop.animals;
 
 public class Lasagna {
     public String name;
