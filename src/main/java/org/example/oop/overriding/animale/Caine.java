@@ -1,4 +1,4 @@
-package org.example.oop.overloading.animale;
+package org.example.oop.overriding.animale;
 
 public class Caine extends Animal {
 

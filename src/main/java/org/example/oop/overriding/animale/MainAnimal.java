@@ -1,4 +1,4 @@
-package org.example.oop.overloading.animale;
+package org.example.oop.overriding.animale;
 
 public class MainAnimal {
     public static void main(String[] args) {
