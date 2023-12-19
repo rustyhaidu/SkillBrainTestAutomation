@@ -8,5 +8,11 @@ public class MainAnimal {
         Caine caine = new Caine();
         caine.respiraMetodaAnterioara();
         caine.respira();
+
+        int numar = 60;
+
+        String mesaj = numar > 60 ? "Numarul nostru e mai de 60" : "Numarul este mai mic";
+
+        System.out.println(mesaj);
     }
 }
