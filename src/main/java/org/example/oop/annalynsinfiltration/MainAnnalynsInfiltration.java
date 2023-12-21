@@ -2,11 +2,16 @@ package org.example.oop.annalynsinfiltration;
 
 public class MainAnnalynsInfiltration {
     public static void main(String[] args) {
-        //System.out.println(AnnalynsInfiltration.canFastAttack(false));
-        System.out.println(AnnalynsInfiltration.canFreePrisoner(
+        AnnalynsInfiltration annalynsInfiltration = new AnnalynsInfiltration();
+
+        System.out.println(annalynsInfiltration.canFastAttack(true));
+        System.out.println(annalynsInfiltration.canSpy(true, false, false));
+
+        System.out.println(annalynsInfiltration.canSignalPrisoner(false, true));
+        /*System.out.println(annalynsInfiltration.canFreePrisoner(
                 true,
                 false,
                 true,
-                false));
+                false));*/
     }
 }
