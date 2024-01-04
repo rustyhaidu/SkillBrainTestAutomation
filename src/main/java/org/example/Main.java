@@ -32,6 +32,7 @@ public class Main {
         Bird bird = new Bird();
         //bird.isEating = false; // suntem in afara pachetului, nu avem access la isEating
 
+        int _myVariables;
     }
 
 
